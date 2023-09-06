@@ -1,0 +1,1098 @@
+<?xml version="1.0"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+
+  <head>
+    <link name="NotoSans" type="font" subtype="truetype" src="${nsfont.NotoSans_Regular}"
+      src-bold="${nsfont.NotoSans_Bold}" src-italic="${nsfont.NotoSans_Italic}"
+      src-bolditalic="${nsfont.NotoSans_BoldItalic}" bytes="2" />
+    <#if .locale=="zh_CN">
+      <link name="NotoSansCJKsc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKsc_Regular}"
+        src-bold="${nsfont.NotoSansCJKsc_Bold}" bytes="2" />
+      <#elseif .locale=="zh_TW">
+        <link name="NotoSansCJKtc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKtc_Regular}"
+          src-bold="${nsfont.NotoSansCJKtc_Bold}" bytes="2" />
+        <#elseif .locale=="ja_JP">
+          <link name="NotoSansCJKjp" type="font" subtype="opentype" src="${nsfont.NotoSansCJKjp_Regular}"
+            src-bold="${nsfont.NotoSansCJKjp_Bold}" bytes="2" />
+          <#elseif .locale=="ko_KR">
+            <link name="NotoSansCJKkr" type="font" subtype="opentype" src="${nsfont.NotoSansCJKkr_Regular}"
+              src-bold="${nsfont.NotoSansCJKkr_Bold}" bytes="2" />
+            <#elseif .locale=="th_TH">
+              <link name="NotoSansThai" type="font" subtype="opentype" src="${nsfont.NotoSansThai_Regular}"
+                src-bold="${nsfont.NotoSansThai_Bold}" bytes="2" />
+    </#if>
+    <style type="text/css">
+      * {
+        <#if .locale=="zh_CN">font-family: NotoSans, NotoSansCJKsc, sans-serif;
+        <#elseif .locale=="zh_TW">font-family: NotoSans, NotoSansCJKtc, sans-serif;
+        <#elseif .locale=="ja_JP">font-family: NotoSans, NotoSansCJKjp, sans-serif;
+        <#elseif .locale=="ko_KR">font-family: NotoSans, NotoSansCJKkr, sans-serif;
+        <#elseif .locale=="th_TH">font-family: NotoSans, NotoSansThai, sans-serif;
+        <#else>font-family: NotoSans, sans-serif;
+        </#if>
+      }
+
+      body {
+        font-size: 10px;
+        margin: auto;
+        width: 960px;
+      }
+
+      #heading {
+        align: center;
+      }
+
+      #heading p {
+        text-align: center;
+      }
+
+      #heading-table {
+        align: right;
+      }
+
+      #heading-table td p {
+        align: center;
+      }
+
+      #table-1 td p {
+        align: center;
+      }
+
+      #table-2 td p {
+        align: center;
+      }
+    </style>
+  </head>
+
+  <body padding="0.5in 0.5in 0.5in 0.5in" size="Letter">
+    <div id="heading">
+      <p><strong>ПРЕГЛЕД ОБРАЧУНА ПДВ&nbsp;<br />ЗА ПОРЕСКИ ПЕРИОД ОД <#if JSON?has_content>${JSON.datestart}</#if> ДО <#if JSON?has_content>${JSON.dateend}</#if>. ГОДИНЕ</strong></p>
+    </div>
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="heading-table"
+      style="border-collapse:collapse; text-align: center;">
+      <tr>
+        <td style="text-align: center; width: 261px;"><strong>&nbsp;ПОДАЦИ О ПОДНОСИОЦУ</strong></td>
+        <td style="width: 287px;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width: 261px; text-align: center;">Назив, односно име и презиме&nbsp;<br />и адреса</td>
+        <td style="width: 287px; text-align: center;"><#if JSON?has_content>${JSON.firma}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 261px; text-align: center;">ПИБ</td>
+        <td style="width: 287px; text-align: center;"><strong><#if JSON?has_content>${JSON.pib}</#if></strong></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <div style="align: right;">
+      <p>У Обрасцу ПОПДВ износи се уписују у динарима, без децимала</p>
+    </div>
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-1"
+      style="border-collapse:collapse;">
+      <tr>
+        <td colspan="2" style="width: 500px;"><strong>1. ПРОМЕТ ДОБАРА И УСЛУГА ЗА КОЈИ ЈЕ ПРОПИСАНО ПОРЕСКО ОСЛОБОЂЕЊЕ
+            СА ПРАВОМ НА ОДБИТАК ПРЕТХОДНОГ ПОРЕЗА</strong></td>
+        <td style="width: 175px;"><strong>Накнада/вредност</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">1.1</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Промет добара која се отпремају у иностранство, укључујући и повећање, односно
+            смањење накнаде за тај промет</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV1["_1.1"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px; height: 43px;">1.2</td>
+        <td style="width: 455px; height: 43px;">
+          <p style="text-align: left;">Промет добара која се отпремају на територију Аутономне покрајине Косово и
+            Метохија, укључујући и повећање, односно смањење накнаде за тај промет</p>
+        </td>
+        <td style="width: 175px; height: 43px;"><#if JSON?has_content>${JSON.popdvObj._POPDV1["_1.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">1.3</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Промет добара која се уносе у слободну зону и промет добара и услуга у слободној
+            зони, укључујући и повећање, односно смањење накнаде за тај промет</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV1["_1.3"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">1.4</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Промет добара и услуга, осим из тач. 1.1 до 1.3, укључујући и повећање, односно
+            смањење накнаде за тај промет</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV1["_1.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>1.5</strong></td>
+        <td align="left" style="width: 455px;">
+          <p><strong>Укупан промет (1.1+1.2+1.3+1.4) </strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV1["_1.5"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">1.6</td>
+        <td align="left" style="width: 455px;">
+          <p>Промет добара и услуга без накнаде</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV1["_1.6"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">1.7</td>
+        <td align="left" style="width: 455px;">
+          <p>Накнада или део накнаде наплаћен пре извршеног промета (аванс)</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV1["_1.7"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-2"
+      style="border-collapse:collapse;">
+      <tr>
+        <td colspan="2" style="width: 500px;"><strong>2. ПРОМЕТ ДОБАРА И УСЛУГА ЗА КОЈИ ЈЕ ПРОПИСАНО ПОРЕСКО ОСЛОБОЂЕЊЕ
+            БЕЗ ПРАВА НА ОДБИТАК ПРЕТХОДНОГ ПОРЕЗА</strong></td>
+        <td style="width: 175px;"><strong>Накнада/вредност</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">2.1</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Промет новца и капитала, укључујући и повећање, односно смањење накнаде за тај
+            промет</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV2["_2.1"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px; height: 43px;">2.2</td>
+        <td style="width: 455px; height: 43px;">
+          <p style="text-align: left;">Промет земљишта и давање у закуп земљишта, укључујући и повећање, односно смањење
+            накнаде за тај промет</p>
+        </td>
+        <td style="width: 175px; height: 43px;"><#if JSON?has_content>${JSON.popdvObj._POPDV2["_2.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">2.3</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Промет објеката, укључујући и повећање, односно смањење накнаде за тај промет</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV2["_2.3"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">2.4</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Промет добара и услуга, осим из тач. 2.1 до 2.3, укључујући и повећање, односно
+            смањење накнаде за тај промет</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV2["_2.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>2.5</strong></td>
+        <td align="left" style="width: 455px;">
+          <p><strong>Укупан промет (2.1+2.2+2.3+2.4) </strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV2["_2.5"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">2.6</td>
+        <td align="left" style="width: 455px;">
+          <p>Промет добара и услуга без накнаде</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV2["_2.6"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">2.7</td>
+        <td align="left" style="width: 455px;">
+          <p>Накнада или део накнаде наплаћен пре извршеног промета (аванс)</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV2["_2.7"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-3" style="border-collapse:collapse;">
+      <tr>
+        <th colspan="2" rowspan="2" style="width: 500px;"><strong>3. ОПОРЕЗИВИ ПРОМЕТ ДОБАРА И УСЛУГА КОЈИ ВРШИ ОБВЕЗНИК ПДВ И ОБРАЧУНАТИ ПДВ</strong></th>
+        <th colspan="2" style="width: 175px;"><strong>Oпшта стопа</strong></th>
+        <th colspan="2" style="width: 175px;"><strong>Посебна стопа</strong></th>
+      </tr>
+      <tr>
+      	<td style="width: 175px;"><strong>Основица</strong></td>
+        <td style="width: 175px;"><strong>ПДВ</strong></td>
+        <td style="width: 175px;"><strong>Основица</strong></td>
+        <td style="width: 175px;"><strong>ПДВ</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">3.1</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Промет новца и капитала, укључујући и повећање, односно смањење накнаде за тај
+            промет</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.1"]["_3.1.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.1"]["_3.1.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.1"]["_3.1.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.1"]["_3.1.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">3.2</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Промет за који је порески дужник обвезник ПДВ који врши тај промет, осим из тачке 3.1</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.2"]["_3.2.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.2"]["_3.2.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.2"]["_3.2.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.2"]["_3.2.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">3.3</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Пренос права располагања на грађевинским објектима за који обвезник ПДВ који врши тај промет није порески дужник</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.3"]["_3.3.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.3"]["_3.3.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.3"]["_3.3.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.3"]["_3.3.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">3.4</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Промет за који обвезник ПДВ који врши тај промет није порески дужник, осим из тачке 3.3</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.4"]["_3.4.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.4"]["_3.4.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.4"]["_3.4.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.4"]["_3.4.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">3.5</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Повећање основице, односно ПДВ</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.5"]["_3.5.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.5"]["_3.5.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.5"]["_3.5.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.5"]["_3.5.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">3.6</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Смањење основице, односно  ПДВ</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.6"]["_3.6.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.6"]["_3.6.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.6"]["_3.6.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.6"]["_3.6.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">3.7</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Промет добара и услуга без накнаде</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.7"]["_3.7.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.7"]["_3.7.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.7"]["_3.7.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.7"]["_3.7.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>3.8</strong></td>
+        <td style="width: 255px;">
+          <p style="text-align: left;"><strong>Укупна основица и обрачунати ПДВ за промет добара и услуга (3.1+3.2+3.3+3.4+3.5+3.6+3.7)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.8"]["_3.8.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.8"]["_3.8.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.8"]["_3.8.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.8"]["_3.8.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">3.9</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Накнада или део накнаде који је наплаћен пре извршеног промета и ПДВ обрачунат по том основу (аванс)</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.9"]["_3.9.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.9"]["_3.9.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.9"]["_3.9.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.9"]["_3.9.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>3.10</strong></td>
+        <td style="width: 255px;">
+          <p style="text-align: left;"><strong>Укупно обрачунати ПДВ (3.8+3.9)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.10"]["_3.10.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.10"]["_3.10.2"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.10"]["_3.10.3"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3["_3.10"]["_3.10.4"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-3a" style="border-collapse:collapse;">
+      <tr>
+        <th colspan="2" rowspan="2" style="width: 500px;"><strong>3a ОБРАЧУНАТИ ПДВ ЗА ПРОМЕТ ДРУГОГ ЛИЦА</strong></th>
+        <th style="width: 175px;"><strong>Oпшта стопа</strong></th>
+        <th style="width: 175px;"><strong>Посебна стопа</strong></th>
+      </tr>
+      <tr>
+        <td style="width: 175px;"><strong>ПДВ</strong></td>
+        <td style="width: 175px;"><strong>ПДВ</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 15px;">3a.1</td>
+        <td style="width: 355px;">
+          <p style="text-align: left;">ПДВ за пренос права располагања на грађевинским објектима за који је порески дужник обвезник ПДВ - прималац добара</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.1"]["_3a.1.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.1"]["_3a.1.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 15px;">3a.2</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">ПДВ за промет добара и услуга који у Републици врши страно лице које није обвезник ПДВ, за који је порески дужник обвезник ПДВ - прималац добара и услуга</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.2"]["_3a.2.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.2"]["_3a.2.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 15px;">3a.3</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">ПДВ за промет добара и услуга за који је порески дужник обвезник ПДВ – прималац добара и услуга, осим из тач. 3а.1 и 3а.2, укључујући и ПДВ обрачунат у складу са чланом 10. став 3. Закона</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.3"]["_3a.3.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.3"]["_3a.3.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 15px;">3a.4</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Повећање обрачунатог ПДВ</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.4"]["_3a.4.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.4"]["_3a.4.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 15px;">3a.5</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">Смањење обрачунатог ПДВ</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.5"]["_3a.5.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.5"]["_3a.5.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 15px;">3a.6</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">ПДВ за промет добара и услуга без накнаде</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.6"]["_3a.6.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.6"]["_3a.6.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 15px;"><strong>3a.7</strong></td>
+        <td style="width: 255px;">
+          <p style="text-align: left;"><strong>Укупно обрачунати ПДВ за промет добара и услуга (3а.1+3а.2+3а.3+3а.4+3а.5+3а.6)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.7"]["_3a.7.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.7"]["_3a.7.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 15px;">3a.8</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">ПДВ по основу накнаде или дела накнаде који је плаћен пре извршеног промета (аванс)</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.8"]["_3a.8.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.8"]["_3a.8.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 15px;"><strong>3a.9</strong></td>
+        <td style="width: 255px;">
+          <p style="text-align: left;"><strong>Укупно обрачунати ПДВ (3а.7+3а.8)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.9"]["_3a.9.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV3a["_3a.9"]["_3a.9.2"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-4" style="border-collapse:collapse;">
+      <tr>
+        <th colspan="6" style="width: 850px;"><strong>4. ПОСЕБНИ ПОСТУПЦИ ОПОРЕЗИВАЊА</strong></th>
+      </tr>
+      <tr>
+        <td colspan="2" style="width: 500px;"><strong>4.1 Туристичке агенције</strong></td>
+        <td colspan="2" style="width: 175px;"><strong>Утврђивање основице</strong></td>
+        <td colspan="2" style="width: 175px;"><strong>ПДВ</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">4.1.1</td>
+        <td style="width: 255px;">
+          <p style="text-align: left;">ПДВ за пренос права располагања на грађевинским објектима за који је порески дужник обвезник ПДВ - прималац добара</p>
+        </td>
+        <td colspan="2" style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.1.1"]["_4.1.1.1"]}</#if></td>
+        <td colspan="2" style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.1.1"]["_4.1.1.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">4.1.2</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Стварни трошкови за претходне туристичке услуге, укључујући и повећање, односно смањење тих трошкова</p>
+        </td>
+        <td colspan="2" style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.1.2"]["_4.1.2.1"]}</#if></td>
+        <td colspan="2" style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.1.2"]["_4.1.2.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">4.1.3</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Разлика (4.1.1–4.1.2)</p>
+        </td>
+        <td colspan="2" style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.1.3"]["_4.1.3.1"]}</#if></td>
+        <td colspan="2" style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.1.3"]["_4.1.3.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">4.1.4</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Обрачунати ПДВ</p>
+        </td>
+        <td colspan="2" style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.1.4"]["_4.1.4.1"]}</#if></td>
+        <td colspan="2" style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.1.4"]["_4.1.4.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2" style="width: 500px;"><strong>4.2 Половна добра, уметничка дела, колекционарска добра и антиквитети</strong></td>
+        <td colspan="2" style="width: 175px;"><strong>Утврђивање основице</strong></td>
+        <td colspan="2" style="width: 175px;"><strong>ПДВ</strong></td>
+      </tr>
+      <tr>
+      	<td style="width: 175px;"><strong>Општа стопа</strong></td>
+        <td style="width: 175px;"><strong>Посебна стопа</strong></td>
+        <td style="width: 175px;"><strong>Општа стопа</strong></td>
+        <td style="width: 175px;"><strong>Посебна стопа</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">4.2.1</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Продајна цена добара, укључујући и повећање, односно смањење те цене</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.1"]["_4.2.1.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.1"]["_4.2.1.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.1"]["_4.2.1.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.1"]["_4.2.1.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">4.2.2</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Набавна цена добара, укључујући и повећање, односно смањење те цене</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.2"]["_4.2.2.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.2"]["_4.2.2.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.2"]["_4.2.2.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.2"]["_4.2.2.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">4.2.3</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Разлика (4.2.1–4.2.2)</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.3"]["_4.2.3.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.3"]["_4.2.3.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.3"]["_4.2.3.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.3"]["_4.2.3.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">4.2.4</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Обрачунати  ПДВ</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.4"]["_4.2.4.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.4"]["_4.2.4.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.4"]["_4.2.4.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV4["_4.2.4"]["_4.2.4.4"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-5"
+      style="border-collapse:collapse;">
+      <tr>
+        <td colspan="2" style="width: 500px;"><strong>5. УКУПАН ПРОМЕТ ДОБАРА И УСЛУГА И УКУПНО ОБРАЧУНАТИ ПДВ</strong></td>
+        <td style="width: 175px;"><strong>Износ</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>5.1</strong></td>
+        <td style="width: 455px;">
+          <p style="text-align: left;"><strong>Укупан опорезиви промет добара и услуга по општој стопи ПДВ (3.8+4.1.1+4.2.1)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV5["_5.1"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px; height: 43px;"><strong>5.2</strong></td>
+        <td style="width: 455px; height: 43px;">
+          <p style="text-align: left;"><strong>Укупно обрачунати ПДВ по општој стопи ПДВ (3.10+3а.9+4.1.4+4.2.4)</strong></p>
+        </td>
+        <td style="width: 175px; height: 43px;"><#if JSON?has_content>${JSON.popdvObj._POPDV5["_5.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>5.3</strong></td>
+        <td style="width: 455px;">
+          <p style="text-align: left;"><strong>Укупно обрачунати ПДВ по општој стопи ПДВ увећан за износ за који се не може умањити претходни порез из тачке 8е.6 (5.2+(8е.6 у апсолутном износу))</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV5["_5.3"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>5.4</strong></td>
+        <td style="width: 455px;">
+          <p style="text-align: left;"><strong>Укупан опорезиви промет добара и услуга по посебној стопи ПДВ (3.8+4.2.1)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV5["_5.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong><strong>5.5</strong></strong></td>
+        <td align="left" style="width: 455px;">
+          <p><strong>Укупно обрачунати ПДВ по посебној стопи ПДВ (3.10+3а.9+4.2.4)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV5["_5.5"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>5.6</strong></td>
+        <td align="left" style="width: 455px;">
+          <p><strong>Укупан промет добара и услуга (1.5+2.5+5.1+5.4)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV5["_5.6"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>5.7</strong></td>
+        <td align="left" style="width: 455px;">
+          <p><strong>Укупно обрачунати ПДВ (5.3+5.5)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV5["_5.7"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-6" style="border-collapse:collapse;">
+      <tr>
+        <th colspan="4" style="width: 850px;"><strong>6. УВОЗ ДОБАРА СТАВЉЕНИХ У СЛОБОДАН ПРОМЕТ У СКЛАДУ СА ЦАРИНСКИМ ПРОПИСИМА</strong></th>
+      </tr>
+      <tr>
+        <td colspan="2" style="width: 500px;"><strong>6.1 Вредност добара за чији је увоз прописано пореско ослобођење, укључујући и повећање, односно смањење вредности тих добара</strong></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV6["_6.1"]}</#if></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="width: 25px;"><strong>6.2 Увоз добара на који се плаћа ПДВ</strong></td>
+        <td style="width: 75px;"><strong>Општа стопа</strong></td>
+        <td style="width: 75px;"><strong>Посебна стопа</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">6.2.1</td>
+        <td style="width: 355px;">
+          <p style="text-align: left;">Основица за увоз добара</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV6["_6.2.1"]["_6.2.1.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV6["_6.2.1"]["_6.2.1.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">6.2.2</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Повећање основице за увоз добара</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV6["_6.2.2"]["_6.2.2.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV6["_6.2.2"]["_6.2.2.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">6.2.3</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Смањење основице за увоз добара</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV6["_6.2.3"]["_6.2.3.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV6["_6.2.3"]["_6.2.3.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>6.3</strong></td>
+        <td style="width: 205px;">
+          <p style="text-align: left;"><strong>Укупна вредност, односно основица за увоз добара (6.1+6.2.1+6.2.2+6.2.3)</strong></p>
+        </td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV6["_6.3"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>6.4</strong></td>
+        <td style="width: 205px;">
+          <p style="text-align: left;"><strong>Укупан ПДВ плаћен при увозу добара, а који се може одбити као претходни порез</strong></p>
+        </td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV6["_6.4"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-7" style="border-collapse:collapse;">
+      <tr>
+        <th colspan="2" style="width: 500px;"><strong>7. НАБАВКА ДОБАРА И УСЛУГА ОД ПОЉОПРИВРЕДНИКА</strong></th>
+        <th style="width: 175px;"><strong>Вредност добара и услуга</strong></th>
+        <th style="width: 175px;"><strong>ПДВ  надокнада</strong></th>
+      </tr>
+      <tr>
+        <td style="width: 15px;">7.1</td>
+        <td style="width: 355px;">
+          <p style="text-align: left;">Вредност примљених добара и услуга, укључујући и повећање, односно смањење те вредности</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV7["_7.1"]["_7.1.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV7["_7.1"]["_7.1.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">7.2</td>
+        <td style="width: 355px;">
+          <p style="text-align: left;">Вредност плаћених добара и услуга</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV7["_7.2"]["_7.2.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV7["_7.2"]["_7.2.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">7.3</td>
+        <td style="width: 355px;">
+          <p style="text-align: left;">Плаћена ПДВ надокнада</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV7["_7.3"]["_7.3.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV7["_7.3"]["_7.3.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>7.4</strong></td>
+        <td style="width: 355px;">
+          <p style="text-align: left;">Плаћена ПДВ надокнада која се може одбити као претходни порез</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV7["_7.4"]["_7.4.1"]}</#if></td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV7["_7.4"]["_7.4.2"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-8" style="border-collapse:collapse;">
+      <tr>
+        <th colspan="6" style="width: 850px;"><strong>8. НАБАВКА ДОБАРА И УСЛУГА, ОСИМ НАБАВКЕ ДОБАРА И УСЛУГА ОД ПОЉОПРИВРЕДНИКА</strong></th>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2" style="width: 500px;"><strong>8а Набавка добара и услуга у Републици од обвезника ПДВ - промет за који је порески дужник испоручилац добара, односно пружалац услуга</strong></td>
+        <td colspan="2" style="width: 175px;"><strong>Општа стопа</strong></td>
+        <td colspan="2" style="width: 175px;"><strong>Посебна стопа</strong></td>
+      </tr>
+      <tr>
+      	<td style="width: 175px;"><strong>Основица</strong></td>
+        <td style="width: 175px;"><strong>ПДВ</strong></td>
+        <td style="width: 175px;"><strong>Основица</strong></td>
+        <td style="width: 175px;"><strong>ПДВ</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8a.1</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Први пренос права располагања на новоизграђеним грађевинским објектима</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.1"]["_8a.1.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.1"]["_8a.1.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.1"]["_8a.1.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.1"]["_8a.1.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8a.2</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге, осим добара из тачке 8а.1</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.2"]["_8a.2.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.2"]["_8a.2.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.2"]["_8a.2.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.2"]["_8a.2.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8a.3</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге без накнаде</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8a["_8a.3"]["_8a.3.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8a["_8a.3"]["_8a.3.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8a["_8a.3"]["_8a.3.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8a["_8a.3"]["_8a.3.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8a.4</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Измена основице за набављена добра и услуге и исправка одбитка претходног пореза по основу измене основице - повећање</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.4"]["_8a.4.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.4"]["_8a.4.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.4"]["_8a.4.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.4"]["_8a.4.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8a.5</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Измена основице за набављена добра и услуге и исправка одбитка претходног пореза по основу измене основице - смањење</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.5"]["_8a.5.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.5"]["_8a.5.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.5"]["_8a.5.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.5"]["_8a.5.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>8a.6</strong></td>
+        <td style="width: 205px;">
+          <p style="text-align: left;"><strong>Укупна основица за набављена добра и услуге (8а.1+8а.2+8а.3+8а.4+8а.5)</strong></p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.6"]["_8a.6.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.6"]["_8a.6.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.6"]["_8a.6.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.6"]["_8a.6.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8a.7</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Накнада или део накнаде који је плаћен пре извршеног промета и ПДВ по том основу (аванс)</p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.7"]["_8a.7.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.7"]["_8a.7.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.7"]["_8a.7.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.7"]["_8a.7.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>8a.8</strong></td>
+        <td style="width: 205px;">
+          <p style="text-align: left;"><strong>Укупно обрачунати ПДВ од стране обвезника ПДВ – претходног учесника у промету (8а.1+8а.2+8а.3+8а.4+8а.5+8а.7)</strong></p>
+        </td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.8"]["_8a.8.1"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.8"]["_8a.8.2"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.8"]["_8a.8.3"]}</#if></td>
+        <td style="width: 75px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8a.8"]["_8a.8.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2" style="width: 500px;"><strong>8б Набавка добара и услуга у Републици од обвезника ПДВ - промет за који је порески дужник прималац добара, односно услуга</strong></td>
+        <td colspan="4" rstyle="width: 175px;"><strong>Основица</strong></td>
+      </tr>
+      <tr>
+      	<td colspan="2" style="width: 175px;"><strong>Општа стопа</strong></td>
+        <td colspan="2" style="width: 175px;"><strong>Посебна стопа</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8b.1</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Пренос права располагања на грађевинским</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.1"]["_8b.1.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.1"]["_8b.1.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8b.2</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге, осим добара из тачке 8б.1</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.2"]["_8b.2.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.2"]["_8b.2.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8b.3</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге без накнаде</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.3"]["_8b.3.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.3"]["_8b.3.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8b.4</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Измена основице за набављена добра и услуге - повећање</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.4"]["_8b.4.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.4"]["_8b.4.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8b.5</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Измена основице за набављена добра и услуге - смањење</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.5"]["_8b.5.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.5"]["_8b.5.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>8b.6</strong></td>
+        <td style="width: 205px;">
+          <p style="text-align: left;"><strong>Укупна основица за набављена добра и услуге (8б.1+8б.2+8б.3+8б.4+8б.5)</strong></p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.6"]["_8b.6.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.6"]["_8b.6.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8b.7</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Накнада или део накнаде који је плаћен пре извршеног промета (аванс)</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.7"]["_8b.7.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8b.7"]["_8b.7.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2" style="width: 500px;"><strong>8в Набавка добара и услуга у Републици од обвезника ПДВ, осим по основу промета за који постоји обавеза обрачунавања ПДВ из тач. 8а и 8б</strong></td>
+        <td colspan="4" rowspan="2" style="width: 175px;"><strong>Накнада/вредност</strong></td>
+      </tr>
+    </table>
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" style="border-collapse:collapse;">
+      <tr>
+        <td style="width: 45px;">8в.1</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Пренос целокупне, односно дела имовине у складу са чланом 6. став 1. тачка 1) Закона, са или без накнаде или као улог, укључујући и повећање, односно смањење накнаде за тај пренос</p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8v.1"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8в.2</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге уз накнаду, осим из тачке 8в.1, укључујући и повећање, односно смањење те накнаде</p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8v.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8в.3</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге без накнаде, осим из тачке 8в.1</p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8v.3"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>8в.4</strong></td>
+        <td style="width: 205px;">
+          <p style="text-align: left;"><strong>Укупна накнада, односно вредност набављених добара и услуга  (8в.1+8в.2+8в.3)</strong></p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8v.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2" style="width: 500px;"><strong>8г Набавка добара и услуга у Републици од страних лица која нису обвезници ПДВ – промет за који постоји обавеза обрачунавања ПДВ</strong></td>
+        <td colspan="4" rstyle="width: 175px;"><strong>Основица</strong></td>
+      </tr>
+      <tr>
+      	<td colspan="2" style="width: 175px;"><strong>Општа стопа</strong></td>
+        <td colspan="2" style="width: 175px;"><strong>Посебна стопа</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8г.1</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.1"]["_8g.1.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.1"]["_8g.1.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8г.2</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге без накнаде</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.2"]["_8g.2.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.2"]["_8g.2.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8г.3</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Измена основице - повећање</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.3"]["_8g.3.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.3"]["_8g.3.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8г.4</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Измена основице - смањење</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.4"]["_8g.4.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.4"]["_8g.4.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>8г.5</strong></td>
+        <td style="width: 205px;">
+          <p style="text-align: left;"><strong>Укупна основица за набављена добра и услуге (8г.1+8г.2+8г.3+8г.4)</strong></p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.5"]["_8g.5.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.5"]["_8g.5.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8г.6</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Накнада или део накнаде плаћен пре извршеног промета (аванс)</p>
+        </td>
+      	<td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.6"]["_8g.6.1"]}</#if></td>
+        <td colspan="2" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8g.6"]["_8g.6.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2" style="width: 500px;"><strong>8д Набавка добара и услуга, осим из тач. 8а до 8г</strong></td>
+        <td colspan="4" rowspan="2" style="width: 175px;"><strong>Накнада/вредност</strong></td>
+      </tr>
+    </table>
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" style="border-collapse:collapse;">
+      <tr>
+        <td style="width: 45px;">8д.1</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Добра и услуге набављени у Републици од страних лица која нису обвезници ПДВ - промет за који не постоји обавеза обрачунавања ПДВ, као и повећање, односно смањење накнаде за та добра и услуге, укључујући и набавку без накнаде</p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8d.1"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8д.2</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге набављени у Републици од лица са територије Републике која нису обвезници ПДВ, као и повећање, односно смањење накнаде за та добра и услуге, укључујући и набавку без накнаде </p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8d.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8д.3</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Добра и услуге набављени ван Републике, као и повећање, односно смањење накнаде за та добра и услуге, укључујући и набавку без накнаде</p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8d.3"]}</#if></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="width: 500px;">
+          <p style="text-align: left;"><strong>8ђ Укупна основица, накнада, односно вредност набављених добара и услуга (8а.6+8б.6+8в.4+8г.5+8д.1+8д.2+8д.3)</strong></p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8dj"]}</#if></td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2" style="width: 500px;"><strong>8е ПДВ ЗА ПРОМЕТ ДОБАРА И УСЛУГА КОЈИ СЕ МОЖЕ ОДБИТИ КАО ПРЕТХОДНИ ПОРЕЗ И ИСПРАВКЕ ОДБИТКА ПРЕТХОДНОГ ПОРЕЗА</strong></td>
+        <td colspan="4" rowspan="2" style="width: 175px;"><strong>Износ</strong></td>
+      </tr>
+    </table>
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" style="border-collapse:collapse;">
+      <tr>
+        <td style="width: 45px;">8е.1</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Укупно обрачунати ПДВ за промет набављених добара и услуга за који је порески дужник обвезник ПДВ - испоручилац добара, односно пружалац услуга, а који се може одбити као претходни порез (8а.8 умањен за износ ПДВ који се не може одбити као претходни порез)</p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8e.1"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8е.2</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Укупно обрачунати ПДВ за промет набављених добара и услуга за који је порески дужник обвезник ПДВ - прималац добара, односно услуга, а који се може одбити као претходни порез (3а.9 умањен за износ ПДВ који се не може одбити као претходни порез)</p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8e.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8е.3</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Исправка одбитка - повећање претходног пореза, осим по основу измене основице за промет добара и услуга и по основу увоза добара</p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8e.3"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;">8е.4</td>
+        <td style="width: 205px;">
+          <p style="text-align: left;">Исправка одбитка - смањење претходног пореза, осим по основу измене основице за промет добара и услуга</p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8e.4"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>8е.5</strong></td>
+        <td style="width: 205px;">
+          <p style="text-align: left;"><strong>Укупно обрачунати ПДВ за промет добара и услуга који се може одбити као претходни порез  (8е.1+8е.2+8е.3+8е.4)</strong></p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8e.5"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 25px;"><strong>8е.6</strong></td>
+        <td style="width: 205px;">
+          <p style="text-align: left;"><strong>Укупно обрачунати ПДВ за промет добара и услуга који се може одбити као претходни порез увећан за износ за који се не може умањити обрачунати ПДВ (8е.5+(5.2+5.5 у апсолутном износу))</strong></p>
+        </td>
+      	<td colspan="4" style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV8["_8e.6"]}</#if></td>
+      </tr>
+    </table>
+	&nbsp;
+
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-9" style="border-collapse:collapse;">
+      <tr>
+        <td colspan="2" rowspan="2" style="width: 500px;"><strong>9. УКУПНА ВРЕДНОСТ НАБАВЉЕНИХ ДОБАРА И УСЛУГА, УКЉУЧУЈУЋИ И УВОЗ ДОБАРА СТАВЉЕНИХ У СЛОБОДАН ПРОМЕТ (6.3+7.1+8ђ)</strong></td>
+        <td colspan="4" rowspan="2" style="width: 175px;"><strong><#if JSON?has_content>${JSON.popdvObj._POPDV9}</#if></strong></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-9a"
+      style="border-collapse:collapse;">
+      <tr>
+        <td colspan="2" style="width: 500px;"><strong>9а ПДВ КОЈИ СЕ У ПОРЕСКОЈ ПРИЈАВИ ИСКАЗУЈЕ КАО ПРЕТХОДНИ ПОРЕЗ</strong></td>
+        <td style="width: 175px;"><strong>Износ</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>9а.1</strong></td>
+        <td style="width: 455px;">
+          <p style="text-align: left;"><strong>ПДВ плаћен при увозу добара</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV9a["_9a.1"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>9а.2</strong></td>
+        <td style="width: 455px;">
+          <p style="text-align: left;"><strong>ПДВ надокнада плаћена пољопривреднику</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV9a["_9a.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>9а.3</strong></td>
+        <td style="width: 455px;">
+          <p style="text-align: left;"><strong>ПДВ по основу набавки добара и услуга, осим из тач. 9а.1 и 9а.2</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV9a["_9a.3"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;"><strong>9а.4</strong></td>
+        <td align="left" style="width: 455px;">
+          <p><strong>Укупан ПДВ који се у пореској пријави исказује као претходни порез (9а.1+9а.2+9а.3)</strong></p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV9a["_9a.4"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-10" style="border-collapse:collapse;">
+      <tr>
+        <td colspan="2" rowspan="2" style="width: 500px;"><strong>10. ПОРЕСКА ОБАВЕЗА (5.7-9а.4)</strong></td>
+        <td colspan="4" rowspan="2" style="width: 175px;"><strong><#if JSON?has_content>${JSON.popdvObj._POPDV10}</#if></strong></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <table border="1" bordercolor="#ccc" cellborder="1" cellpadding="5" cellspacing="0" id="table-11"
+      style="border-collapse:collapse;">
+      <tr>
+        <td colspan="2" style="width: 500px;"><strong>11. ПРОМЕТ ДОБАРА И УСЛУГА ИЗВРШЕН ВАН РЕПУБЛИКЕ И ДРУГИ ПРОМЕТ КОЈИ НЕ ПОДЛЕЖЕ ПДВ</strong></td>
+        <td style="width: 175px;"><strong>Износ</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">11.1</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Промет добара и услуга извршен ван Републике</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV11["_11.1"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">11.2</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Пренос целокупне, односно дела имовине у складу са чланом 6. став 1. тачка 1) Закона</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV11["_11.2"]}</#if></td>
+      </tr>
+      <tr>
+        <td style="width: 42px;">11.3</td>
+        <td style="width: 455px;">
+          <p style="text-align: left;">Промет добара и услуга из члана 6. Закона, осим из тачке 11.2</p>
+        </td>
+        <td style="width: 175px;"><#if JSON?has_content>${JSON.popdvObj._POPDV11["_11.3"]}</#if></td>
+      </tr>
+    </table>
+    &nbsp;
+
+    <div>
+      <table>
+        <#list results as result>
+          <#if result_index==0>
+            <thead>
+              <tr></tr>
+            </thead>
+          </#if>
+          <tr></tr>
+        </#list>
+      </table>
+    </div>
+  </body>
+</pdf>

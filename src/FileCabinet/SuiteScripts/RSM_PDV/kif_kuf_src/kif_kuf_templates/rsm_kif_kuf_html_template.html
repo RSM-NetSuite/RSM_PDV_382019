@@ -1,0 +1,305 @@
+<html>
+
+<head>
+  <style type="text/css">
+    .container {
+      width: 100%;
+    }
+
+    .taxitem {
+      font-size: 12px;
+      text-transform: uppercase;
+      cursor: pointer;
+      padding: 5px;
+      /* background-color: lightgray; */
+    }
+
+    .table-wrapper {
+      margin: 10px;
+    }
+
+    .table {
+      width: 100%;
+      font-size: 11px;
+      border-collapse: collapse;
+    }
+
+    .table tr td {
+      padding: 5px;
+    }
+
+    .thead tr th {
+      padding: 5px;
+    }
+
+    .thead,
+    .total {
+      color: #FFF;
+      background-color: #607799;
+    }
+
+    .tr-odd {
+      background-color: #e0e6ef;
+    }
+
+    .bills-invoices-list {
+      display: block;
+      line-height: 11px;
+    }
+    .overallTitle{
+      text-align: center;
+    }
+    .align-center{
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <#assign i=0>
+      <#list JSON.groups as group>
+        <div class="table-wrapper">
+          <p class="taxitem" data-table="table${i}" onclick="minimizeMaximize(this)">${group.desc}  &nbsp; &nbsp;${group.taxcodedesc}</p>
+          <table class="table" id="table${i}">
+            <thead class="thead">
+              <!-- <th width=5%>Interni id</th> -->
+              <th width=5%>POPDV datum</th>
+              <th width=15%>Broj transakcije/dokumenta</th>
+              <th width=15%>Tip transakcije/dokumenta</th>
+              <th width=15%>Povezani dokument</th>
+              <th width=10%>
+                <#if JSON.reporttype=="kif"> Naziv kupca <#else> Naziv dobavljaca </#if>
+              </th>
+              <th width=10%>
+                <#if JSON.reporttype=="kif"> Adresa kupca <#else> Adresa dobavljaca </#if>
+              </th>
+              <th width=10%>
+                <#if JSON.reporttype=="kif"> PIB kupca <#else> PIB dobavljaca </#if>
+              </th>
+              <th width=5%>Broj dokumenta</th>
+              <th width=5%>Datum dokumenta</th>
+              <th width=5%>Datum prometa</th>
+              <th width=2.5%>Stopa PDV</th>
+              <th width=2.5%>Poreski kod</th>
+              <th width=5%>Osnovica za obracun poreza</th>
+              <th width=5%>Iznos PDV</th>
+              <th width=5%>Ukupna vrednost dokumenta</th>
+              <th width=5%>Memo</th>
+            </thead>
+            <#assign x=1>
+              <#list group.transactions as tran>
+                <#if tran.type=="Deposit Application - Primljeni avansi sadržani u konačnoj izlaznoj fakturi">
+                  <#list tran.invoices as invoice>
+                    <#if x % 2==0>
+                      <tr class="tr-odd">
+                        <#else>
+                      <tr>
+                    </#if>
+                    <!-- <td>${tran.internalid}</td> -->
+                    <td>${tran.popdvdatum}</td>
+                    <td>${tran.trannumber}</td>
+                    <td>${tran.type}</td>
+                    <td>${invoice.refnum}</td>
+                    <td>${tran.customer}</td>
+                    <td>${tran.custaddress}</td>
+                    <td>${tran.pib}</td>
+                    <td>${tran.tranid}</td>
+                    <td>${tran.trafficdate}</td>
+                    <td>${tran.trandate}</td>
+                    <td class="a-right">${tran.rate}</td>
+                    <td>${tran.taxcode}</td>
+                    <td class="a-right">-${invoice.netamount}</td>
+                    <td class="a-right">-${invoice.taxamount}</td>
+                    <td class="a-right">-${invoice.amount}</td>
+                    <td>${tran.memo}</td>
+                    </tr>
+                    <#assign x +=1>
+                  </#list>
+                  <#elseif tran.type=="Vendor Prepayment Application - Dati avansi sadržani u konačnoj izlaznoj fakturi">
+                    <#list tran.bills as bill>
+                      <#if x % 2==0>
+                        <tr class="tr-odd">
+                          <#else>
+                        <tr>
+                      </#if>
+                      <!-- <td>${tran.internalid}</td> -->
+                      <td>${tran.popdvdatum}</td>
+                      <td>${tran.trannumber}</td>
+                      <td>${tran.type}</td>
+                      <td>${bill.refnum}</td>
+                      <td>${tran.customer}</td>
+                      <td>${tran.custaddress}</td>
+                      <td>${tran.pib}</td>
+                      <td>${tran.tranid}</td>
+                      <td>${tran.trafficdate}</td>
+                      <td>${tran.trandate}</td>
+                      <td class="a-right">${tran.rate}</td>
+                      <td>${tran.taxcode}</td>
+                      <td class="a-right">-${bill.netamount}</td>
+                      <td class="a-right">-${bill.taxamount}</td>
+                      <td class="a-right">-${bill.amount}</td>
+                      <td>${tran.memo}</td>
+                      </tr>
+                      <#assign x +=1>
+                    </#list>
+                    <#else>
+                      <#if x % 2==0>
+                        <tr class="tr-odd">
+                          <#else>
+                        <tr>
+                      </#if>
+                      <!-- <td>${tran.internalid}</td> -->
+                      <td>${tran.popdvdatum}</td>
+                      <td>${tran.trannumber}</td>
+                      <td>${tran.type}</td>
+                      <td></td>
+                      <td>${tran.customer}</td>
+                      <td>${tran.custaddress}</td>
+                      <td>${tran.pib}</td>
+                      <td>${tran.tranid}</td>
+                      <td>${tran.trafficdate}</td>
+                      <td>${tran.trandate}</td>
+                      <td class="a-right">${tran.rate}</td>
+                      <td>${tran.taxcode}</td>
+                      <td class="a-right">${tran.amount}</td>
+                      <td class="a-right">${tran.taxamount}</td>
+                      <td class="a-right">${tran.calculatedGrossAmount}</td>
+                      <td>${tran.memo}</td>
+                      </tr>
+                      <#assign x +=1>
+                </#if>
+              </#list>
+              <tr>
+                <!-- <td></td> -->
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="total">${group.nettotal}</td>
+                <td class="total">${group.taxtotal}</td>
+                <td class="total">${group.total}</td>
+                <td></td>
+              </tr>
+          </table>
+        </div>
+        <#assign i +=1>
+      </#list>
+      <#if JSON.reporttype=="kif" && JSON.customerDeposits?size > 0 ><h3> Customer Deposits - Primljeni avansi </h3></#if>
+      <#list JSON.customerDeposits as cdGroup>
+        <div class="table-wrapper">
+          <p class="taxitem" data-table="table${i}" onclick="minimizeMaximize(this)">${cdGroup.desc}</p>
+            <table class="table" id="table${i}">
+              <thead class="thead">
+                <!-- <th width=5%>Interni id</th> -->
+                <th width=5%>POPDV datum</th>
+                <th width=15%>Broj transakcije/dokumenta</th>
+                <th width=15%>Tip transakcije/dokumenta</th>
+                <th width=15%>Povezani dokument</th>
+                <th width=10%>
+                  <#if JSON.reporttype=="kif"> Naziv kupca <#else> Naziv dobavljaca </#if>
+                </th>
+                <th width=10%>
+                  <#if JSON.reporttype=="kif"> Adresa kupca <#else> Adresa dobavljaca </#if>
+                </th>
+                <th width=10%>
+                  <#if JSON.reporttype=="kif"> PIB kupca <#else> PIB dobavljaca </#if>
+                </th>
+                <th width=5%>Broj dokumenta</th>
+                <th width=5%>Datum dokumenta</th>
+                <th width=5%>Datum prometa</th>
+                <th width=2.5%>Stopa PDV</th>
+                <th width=2.5%>Poreski kod</th>
+                <th width=5%>Osnovica za obracun poreza</th>
+                <th width=5%>Iznos PDV</th>
+                <th width=5%>Ukupna vrednost dokumenta</th>
+                <th width=5%>Memo</th>
+              </thead>
+              <#assign y=1>
+                <#list cdGroup.transactions as tran>
+                  <#if y % 2==0>
+                    <tr class="tr-odd">
+                  <#else>
+                    <tr>
+                  </#if>
+                  <!-- <td>${tran.internalid}</td> -->
+                  <td>${tran.popdvdatum}</td>
+                  <td>${tran.trannumber}</td>
+                  <td>${tran.type}</td>
+                  <td></td>
+                  <td>${tran.customer}</td>
+                  <td>${tran.custaddress}</td>
+                  <td>${tran.pib}</td>
+                  <td>${tran.tranid}</td>
+                  <td>${tran.trafficdate}</td>
+                  <td>${tran.trandate}</td>
+                  <td class="a-right">${tran.rate}</td>
+                  <td>${tran.taxcode}</td>
+                  <td class="a-right">${tran.amount}</td>
+                  <td class="a-right">${tran.taxamount}</td>
+                  <td class="a-right">${tran.calculatedGrossAmount}</td>
+                  <td>${tran.memo}</td>
+                </tr>
+                <#assign y +=1>
+                </#list>
+                <tr>
+                <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="total">${cdGroup.nettotal}</td>
+                  <td class="total">${cdGroup.taxtotal}</td>
+                  <td class="total">${cdGroup.total}</td>
+                  <td></td>
+                </tr>
+            </table>
+        </div>
+        <#assign i +=1>
+      </#list>
+  </div>
+  <div class="container">
+    <div class="table-wrapper">
+      <h2 class="overallTitle" data-table="tableSum" onclick="minimizeMaximize(this)">Pregled ukupne vrednosti svih poreskih kodova</p>
+        <table class="table" id="tableSum">
+          <thead class="thead">
+            <th class="align-center" width=15%>Ukupna vrednost osnovice</th>
+            <th class="align-center" width=15%>Ukupna vrednost poreza</th>
+            <th class="align-center" width=15%>Ukupna vrednost</th>
+          </thead>
+              <tr>
+              <td width=15% >${JSON.overallData.overallNetTotal}</td>
+              <td width=15% >${JSON.overallData.overallTaxTotal}</td>
+              <td width=15% >${JSON.overallData.overallTotal}</td>
+            </tr>
+            <tr>
+        </table>
+    </div>
+</div>
+  <script>
+    function minimizeMaximize(el) {
+      var table = document.getElementById(el.dataset.table);
+      table.hidden = (table.hidden == true) ? false : true;
+    }
+  </script>
+
+</body>
+
+</html>

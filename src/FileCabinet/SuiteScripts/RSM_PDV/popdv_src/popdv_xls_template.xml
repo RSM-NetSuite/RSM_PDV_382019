@@ -1,0 +1,2481 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:o="urn:schemas-microsoft-com:office:office"
+          xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Vladimir Popovic</Author>
+  <LastAuthor>Vladimir Popovic</LastAuthor>
+  <Created>2021-09-28T15:06:21Z</Created>
+  <LastSaved>2021-09-30T10:14:45Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12285</WindowHeight>
+  <WindowWidth>24855</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>90</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m34593792">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34593812">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34593832">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34593852">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34593872">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34593892">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34593912">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34593932">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34593952">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34591232">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34591252">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34591272">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34591292">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34591312">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34591332">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34591352">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34591372">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m34591392">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090624">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090644">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090664">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090684">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090704">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090724">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090744">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090764">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090784">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144090804">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144089208">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m144089228">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144089248">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144089268">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144089288">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m144089308">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504896">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504916">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504936">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504956">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504976">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504996">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111505016">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111505036">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111505056">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111505076">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111505096">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111505116">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111504384">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504404">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111504464">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111504504">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111504544">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504604">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111504664">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504704">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504724">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504744">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504764">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504784">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504804">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504824">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504844">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111503912">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111503932">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111503952">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111503972">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504012">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504052">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111504092">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504112">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504132">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111504192">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504212">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504232">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504252">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504272">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111504292">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111502376">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111502396">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111502456">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111502476">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111502496">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111502516">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501824">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501844">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501864">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501884">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501904">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501944">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111501984">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111501332">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111501352">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501372">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501392">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501412">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501452">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501472">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501492">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501512">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501532">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501552">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111501572">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393812">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393852">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111393892">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393932">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111393972">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111394012">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111394032">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394052">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394072">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394092">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394112">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394132">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394152">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394172">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394192">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394212">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394232">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111394252">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393280">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393300">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111393320">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393360">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111393380">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393400">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393440">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m111393460">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393480">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393500">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m111393520">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s44">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s103">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s107">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s109">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s111">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s113">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s115">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s117">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s119">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s121">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s132">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s134">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s136">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+         ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s197">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s209">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s210">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s211">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s212">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s263">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table x:FullColumns="1"
+         x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="349.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78.75" ss:Span="3"/>
+   <Row ss:Index="5" ss:Height="15.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:Index="2" ss:StyleID="s55"><Data ss:Type="String">PODACI O PODNOSIOCU</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m144089268"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell ss:Index="2" ss:StyleID="s26"><Data ss:Type="String">Naziv, odnosno ime i prezime i adresa</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m144089288"><Data ss:Type="String">${JSON.firma}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">PIB</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m144089308"><Data ss:Type="String">${JSON.pib}</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0" ss:Height="46.5">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s263"><Data ss:Type="String">U Obrascu POPDV iznosi se upisuju u dinarima, bez decimala</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s103"><Data ss:Type="String">1. PROMET DOBARA I USLUGA ZA KOJI JE PROPISANO PORESKO OSLOBOĐENJE SA PRAVOM NA ODBITAK PRETHODNOG POREZA</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144089208"><Data ss:Type="String">Naknada/vrednost</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet dobara koja se otpremaju u inostranstvo, uključujući i povećanje, odnosno smanjenje naknade za taj promet</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144089228"><Data ss:Type="Number">${JSON.popdvObj._POPDV1["_1.1"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet dobara koja se otpremaju na teritoriju Autonomne pokrajine Kosovo i Metohija, uključujući i povećanje, odnosno smanjenje naknade za taj promet</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144089248"><Data ss:Type="Number">${JSON.popdvObj._POPDV1["_1.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1.3</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet dobara koja se unose u slobodnu zonu i promet dobara i usluga u slobodnoj zoni, uključujući i povećanje, odnosno smanjenje naknade za taj promet</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111505016"><Data ss:Type="Number">${JSON.popdvObj._POPDV1["_1.3"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet dobara i usluga, osim iz tač. 1.1 do 1.3, uključujući i povećanje, odnosno smanjenje naknade za taj promet</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111505036"><Data ss:Type="Number">${JSON.popdvObj._POPDV1["_1.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupan promet (1.1+1.2+1.3+1.4)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111505056"><Data ss:Type="Number">${JSON.popdvObj._POPDV1["_1.5"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet dobara i usluga bez naknade</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111505076"><Data ss:Type="Number">${JSON.popdvObj._POPDV1["_1.6"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1.7</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Naknada ili deo naknade naplaćen pre izvršenog prometa (avans)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111505096"><Data ss:Type="Number">${JSON.popdvObj._POPDV1["_1.7"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="20" ss:Height="15.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s103"><Data ss:Type="String">2. PROMET DOBARA I USLUGA ZA KOJI JE PROPISANO PORESKO OSLOBOĐENJE BEZ PRAVA NA ODBITAK PRETHODNOG POREZA</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111505116"><Data ss:Type="String">Naknada/vrednost</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet novca i kapitala, uključujući i povećanje, odnosno smanjenje naknade za taj promet</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504896"><Data ss:Type="Number">${JSON.popdvObj._POPDV2["_2.1"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet zemljišta i davanje u zakup zemljišta, uključujući i povećanje, odnosno smanjene naknade za taj promet</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504916"><Data ss:Type="Number">${JSON.popdvObj._POPDV2["_2.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2.3</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet objekata, uključujući i povećanje, odnosno smanjenje naknade za taj promet</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504936"><Data ss:Type="Number">${JSON.popdvObj._POPDV2["_2.3"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet dobara i usluga, osim iz tač. 2.1 do 2.3, uključujući i povećanje, odnosno smanjenje naknade za taj promet</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504956"><Data ss:Type="Number">${JSON.popdvObj._POPDV2["_2.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupan promet (2.1+2.2+2.3+2.4)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504976"><Data ss:Type="Number">${JSON.popdvObj._POPDV2["_2.5"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet dobara i usluga bez naknade</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504996"><Data ss:Type="Number">${JSON.popdvObj._POPDV2["_2.6"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2.7</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Naknada ili deo naknade naplaćen pre izvršenog prometa (avans)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504544"><Data ss:Type="Number">${JSON.popdvObj._POPDV2["_2.7"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="30" ss:Height="15.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s136"><Data
+            ss:Type="String">3. OPOREZIVI PROMET DOBARA I USLUGA KOJI VRŠI OBVEZNIK PDV I OBRAČUNATI PDV</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s111"><Data ss:Type="String">Opšta stopa</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504604"><Data ss:Type="String">Posebna stopa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s50"><Data ss:Type="String">Osnovica</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">PDV</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">Osnovica</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">PDV</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet novca i kapitala, uključujući i povećanje, odnosno smanjenje naknade za taj promet</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.1"]["_3.1.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.1"]["_3.1.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.1"]["_3.1.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.1"]["_3.1.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet za koji je poreski dužnik obveznik PDV koji vrši taj promet, osim iz tačke 3.1</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.2"]["_3.2.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.2"]["_3.2.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.2"]["_3.2.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.2"]["_3.2.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3.3</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Prenos prava raspolaganja na građevinskim objektima za koji obveznik PDV koji vrši taj promet nije poreski dužnik</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.3"]["_3.3.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.3"]["_3.3.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.3"]["_3.3.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.3"]["_3.3.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet za koji obveznik PDV koji vrši taj promet nije poreski dužnik, osim iz tačke 3.3</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.4"]["_3.4.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.4"]["_3.4.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.4"]["_3.4.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.4"]["_3.4.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3.5</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Povećanje osnovice, odnosno PDV</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.5"]["_3.5.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.5"]["_3.5.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.5"]["_3.5.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.5"]["_3.5.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Smanjenje osnovice, odnosno PDV</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.6"]["_3.6.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.6"]["_3.6.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.6"]["_3.6.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.6"]["_3.6.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3.7</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Promet dobara i usluga bez naknade</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.7"]["_3.7.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.7"]["_3.7.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.7"]["_3.7.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.7"]["_3.7.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">3.8</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupna osnovica i obračunati PDV za promet dobara i usluga (3.1+3.2+3.3+3.4+3.5+3.6+3.7)</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.8"]["_3.8.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.8"]["_3.8.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.8"]["_3.8.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.8"]["_3.8.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s43"><Data ss:Type="String">3.9</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Naknada ili deo naknade koji je naplaćen pre izvršenog prometa i PDV obračunat po tom osnovu (avans)</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.9"]["_3.9.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.9"]["_3.9.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.9"]["_3.9.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.9"]["_3.9.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s45"><Data ss:Type="String">3.10</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Ukupno obračunati PDV (3.8+3.9)</Data></Cell>
+    <Cell ss:StyleID="s211"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.10"]["_3.10.1"]}</Data></Cell>
+    <Cell ss:StyleID="s211"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.10"]["_3.10.2"]}</Data></Cell>
+    <Cell ss:StyleID="s211"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.10"]["_3.10.3"]}</Data></Cell>
+    <Cell ss:StyleID="s212"><Data ss:Type="Number">${JSON.popdvObj._POPDV3["_3.10"]["_3.10.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="44" ss:Height="15.75"/>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s55"><Data
+            ss:Type="String">Za OBRAČUNATI PDV ZA PROMET DRUGOG LICA</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s132"><Data ss:Type="String">Opšta stopa</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504664"><Data ss:Type="String">Posebna stopa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s107"><Data ss:Type="String">PDV</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504384"><Data ss:Type="String">PDV</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">3a.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">PDV za prenos prava raspolaganja na građevinskim objketima za koji je poreski dužnik obveznik PDV - primalac dobara</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504704"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.1"]["_3a.1.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090644"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.1"]["_3a.1.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">3a.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">PDV za promet dobara i usluga koji u Republici vrši strano lice koje nije obveznik PDV, za koji je poreski dužnik obveznik PDV - primalac dobara i usluga</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504724"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.2"]["_3a.2.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090664"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.2"]["_3a.2.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">3a.3</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">PDV za promet dobara i usluga za koji je poreski dužnik obveznik PDV - primalac dobara i usluga, osim iz tač. 3a.1 i 3a.2, uključujući i PDV obračunat u skladu sa članom 10. stav 3. zakona</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504744"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.3"]["_3a.3.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090684"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.3"]["_3a.3.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">3a.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Povećanje obračunatog PDV</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504764"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.4"]["_3a.4.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090704"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.4"]["_3a.4.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">3a.5</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Smanjene obračunatog PDV</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504784"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.5"]["_3a.5.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090724"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.5"]["_3a.5.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">3a.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">PDV za promet dobara i usluga bez naknade</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504804"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.6"]["_3a.6.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090744"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.6"]["_3a.6.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">3a.7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupno obračunati PDV za promet dobara i usluga (3a.1+3a.2+3a.3+3a.4+3a.5+3a.6)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504824"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.7"]["_3a.7.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090764"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.7"]["_3a.7.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">3a.8</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">PDV po osnovu naknade ili dela naknade koji je plaćen pre izvršenog prometa (avans)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504844"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.8"]["_3a.8.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090784"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.8"]["_3a.8.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">3a.9</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Ukupno obračunati PDV (3a.7+3a.8)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090624"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.9"]["_3a.9.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m144090804"><Data ss:Type="Number">${JSON.popdvObj._POPDV3a["_3a.9"]["_3a.9.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="57" ss:Height="15.75"/>
+   <Row>
+    <Cell ss:MergeAcross="5" ss:StyleID="m111504404"><Data ss:Type="String">4. POSEBNI POSTUPCI OPOREZIVANJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s121"><Data ss:Type="String">4.1 Turističke agencije</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s115"><Data ss:Type="String">Utvrđivanje osnovice</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504464"><Data ss:Type="String">PDV</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">4.1.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">PDV za prenos prava raspolaganja na građevinskim objektima za koji je poreski dužnik obveznik PDV - primalac dobara</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m34591232"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.1.1"]["_4.1.1.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m34591312"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.1.1"]["_4.1.1.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">4.1.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Stvarni troškovi za prethodne turističke usluge, uključujući i povećanje, odnosno smanjenje tih troškova</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m34591252"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.1.2"]["_4.1.2.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m34591332"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.1.2"]["_4.1.2.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">4.1.3</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Razlika (4.1.1-4.1.2)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m34591272"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.1.3"]["_4.1.3.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m34591352"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.1.3"]["_4.1.3.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">4.1.4</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Obračunati PDV</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m34591292"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.1.4"]["_4.1.4.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m34591372"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.1.4"]["_4.1.4.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s134"><Data
+            ss:Type="String">4.2 Polovna dobra, umetnička dela, kolekcionarska dobra i antikviteti</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s115"><Data ss:Type="String">Utvrđivanje osnovice</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504504"><Data ss:Type="String">PDV</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s50"><Data ss:Type="String">Opšta stopa</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">Posebna stopa</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">Opšta stopa</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Posebna stopa</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">4.2.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Prodajna cena dobara, uključujući i povećanje, odnosno smanjenje te cene</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.1"]["_4.2.1.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.1"]["_4.2.1.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.1"]["_4.2.1.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.1"]["_4.2.1.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">4.2.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Nabavna cena dobara, uključujući i povećanje, odnosno smanjenje te cene</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.2"]["_4.2.2.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.2"]["_4.2.2.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.2"]["_4.2.2.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.2"]["_4.2.2.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">4.2.3</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Razlika (4.2.1-4.2.2)</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.3"]["_4.2.3.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.3"]["_4.2.3.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.3"]["_4.2.3.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.3"]["_4.2.3.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">4.2.4</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Obračunati PDV</Data></Cell>
+    <Cell ss:StyleID="s211"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.4"]["_4.2.4.1"]}</Data></Cell>
+    <Cell ss:StyleID="s211"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.4"]["_4.2.4.2"]}</Data></Cell>
+    <Cell ss:StyleID="s211"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.4"]["_4.2.4.3"]}</Data></Cell>
+    <Cell ss:StyleID="s212"><Data ss:Type="Number">${JSON.popdvObj._POPDV4["_4.2.4"]["_4.2.4.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="71" ss:Height="15.75"/>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s109"><Data ss:Type="String">5. UKUPAN PROMET DOBARA I USLUGA I UKUPNO OBRAČUNATI PDV</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504012"><Data ss:Type="String">Iznos</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">5.1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupan oporezivi promet dobara i usluga po opštoj stopi PDV (3.8+4.1.1+4.2.1)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m34591392"><Data ss:Type="Number">${JSON.popdvObj._POPDV5["_5.1"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">5.2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupno obračunati PDV po opštoj stopi PDV (3.10+3a.9+4.1.4+4.2.4)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504192"><Data ss:Type="Number">${JSON.popdvObj._POPDV5["_5.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">5.3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupno obračunati PDV po opštoj stopi PDV uvećan za iznos za koji se ne može umanjivati prethodni porez iz tačke 8e.6 (5.2+(8e.6 u apsolutnom iznosu))</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504212"><Data ss:Type="Number">${JSON.popdvObj._POPDV5["_5.3"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">5.4</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupan oporezivi promet dobara i usluga po posebnoj stopi PDV (3.8+4.2.1)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504232"><Data ss:Type="Number">${JSON.popdvObj._POPDV5["_5.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">5.5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupno obračunati PDV po posebnoj stopi PDV (3.10+3a.9+4.2.4)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504252"><Data ss:Type="Number">${JSON.popdvObj._POPDV5["_5.5"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">5.6</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupan promet dobara i usluga (1.5+2.5+5.1+5.4)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504272"><Data ss:Type="Number">${JSON.popdvObj._POPDV5["_5.6"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">5.7</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Ukupno obračunati PDV (5.3+5.5)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504292"><Data ss:Type="Number">${JSON.popdvObj._POPDV5["_5.7"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="81" ss:Height="15.75"/>
+   <Row>
+    <Cell ss:MergeAcross="5" ss:StyleID="m111504132"><Data ss:Type="String">6. UVOZ DOBARA STAVLJENIH U SLOBODAN PROMET U SKLADU SA CARINSKIM PROPISIMA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s119"><Data ss:Type="String">6.1 Vrednost dobara za čiji je uvoz propisano poresko oslobođenje, uključujući i povećanje, odnosno smanjenje vrednosti tih dobara</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111504112"><Data ss:Type="Number">${JSON.popdvObj._POPDV6["_6.1"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s121"><Data ss:Type="String">6.2 Uvoz dobara na koji se plaća PDV</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s115"><Data ss:Type="String">Opšta stopa</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504052"><Data ss:Type="String">Posebna stopa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">6.2.1</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Osnovica za uvoz dobara</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV6["_6.2.1"]["_6.2.1.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111504092"><Data ss:Type="Number">${JSON.popdvObj._POPDV6["_6.2.1"]["_6.2.1.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">6.2.2</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Povećanje osnovice za uvoz dobara</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV6["_6.2.2"]["_6.2.2.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111503912"><Data ss:Type="Number">${JSON.popdvObj._POPDV6["_6.2.2"]["_6.2.2.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">6.2.3</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Smanjenje osnovice za uvoz dobara</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV6["_6.2.3"]["_6.2.3.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111503932"><Data ss:Type="Number">${JSON.popdvObj._POPDV6["_6.2.3"]["_6.2.3.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s28"><Data ss:Type="Number">6.3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupna vrednost, odnosno osnovica za uvoz dobara (6.1+6.2.1+6.2.2+6.2.3)</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111503952"><Data ss:Type="Number">${JSON.popdvObj._POPDV6["_6.3"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30.75">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">6.4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Ukupan PDV plaćen pri uvozu dobara, a koji se može odbiti kao prethnodni porez</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111503972"><Data ss:Type="Number">${JSON.popdvObj._POPDV6["_6.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="91" ss:Height="15.75"/>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s109"><Data ss:Type="String">7. NABAVKA DOBARA I USLUGA OD POLJOPRIVREDNIKA</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s111"><Data ss:Type="String">Vrednost dobara i usluga</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111502376"><Data ss:Type="String">PDV nadoknada</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">7.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Vrednost primljenih dobara i usluga, uključujući i povećanje, odnosno smanjenje te vrednosti</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111502476"><Data ss:Type="Number">${JSON.popdvObj._POPDV7["_7.1"]["_7.1.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501844"><Data ss:Type="Number">${JSON.popdvObj._POPDV7["_7.1"]["_7.1.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">7.2</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Vrednost plaćenih dobara i usluga</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111502496"><Data ss:Type="Number">${JSON.popdvObj._POPDV7["_7.2"]["_7.2.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501864"><Data ss:Type="Number">${JSON.popdvObj._POPDV7["_7.2"]["_7.2.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">7.3</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Plaćena PDV nadoknada</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111502516"><Data ss:Type="Number">${JSON.popdvObj._POPDV7["_7.3"]["_7.3.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501884"><Data ss:Type="Number">${JSON.popdvObj._POPDV7["_7.3"]["_7.3.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7.4</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Plaćena PDV nadoknada koja se može odbiti kao prethodni porez</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501824"><Data ss:Type="Number">${JSON.popdvObj._POPDV7["_7.4"]["_7.4.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501904"><Data ss:Type="Number">${JSON.popdvObj._POPDV7["_7.4"]["_7.4.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="98" ss:Height="15.75"/>
+   <Row>
+    <Cell ss:MergeAcross="5" ss:StyleID="m111502396"><Data ss:Type="String">8. NABAVKA DOBARA I USLUGA, OSIM NABAVKE DOBARA I USLUGA OD POLJOPRIVREDNIKA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s119"><Data
+            ss:Type="String">8a Nabavka dobara i usluga u Republici od obveznika PDV - promet za koji je poreski dužnik isporučilac dobara, odnosno pružilac usluga</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s115"><Data ss:Type="String">Opšta stopa</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111502456"><Data ss:Type="String">Posebna stopa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s50"><Data ss:Type="String">Osnovica</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">PDV</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">Osnovica</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">PDV</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8a.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Prvi prenos prava raspolaganja na novoizgrađenim građevinskim objektima</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.1"]["_8a.1.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.1"]["_8a.1.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.1"]["_8a.1.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.1"]["_8a.1.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8a.2</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Dobra i usluge, osim dobara iz taćke 8a.1</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.2"]["_8a.2.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.2"]["_8a.2.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.2"]["_8a.2.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.2"]["_8a.2.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8a.3</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Dobra i usluge bez naknade</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.3"]["_8a.3.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.3"]["_8a.3.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.3"]["_8a.3.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.3"]["_8a.3.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8a.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Izmena osnovice za nabavljena dobra i usluge i ispravka odbitka prethodnog poreza po osnovu izmene osnovice - povećanje</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.4"]["_8a.4.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.4"]["_8a.4.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.4"]["_8a.4.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.4"]["_8a.4.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8a.5</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Izmena osnovice za nabavljena dobra i usluge i ispravka odbitka prethodnog poreza po osnovu izmene osnovice - smanjenje</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.5"]["_8a.5.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.5"]["_8a.5.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.5"]["_8a.5.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.5"]["_8a.5.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">8a.6</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupna osnovica za nabavljena dobra i usluge (8a.1+8a.2+8a.3+8a.4+8a.5)</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.6"]["_8a.6.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.6"]["_8a.6.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.6"]["_8a.6.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.6"]["_8a.6.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8a.7</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Naknada ili deo naknade koji je plaćen pre izvršenog prometa i PDV po tom osnovu (avans)</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.7"]["_8a.7.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.7"]["_8a.7.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.7"]["_8a.7.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.7"]["_8a.7.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">8a.8</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Ukupno obračunati PDV od strane obveznika PDV - prethodnog učesnika u prometu (8a.1+8a.2+8a.3+8a.4+8a.5+8a.7)</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.8"]["_8a.8.1"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.8"]["_8a.8.2"]}</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.8"]["_8a.8.3"]}</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8a.8"]["_8a.8.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s119"><Data
+            ss:Type="String">8b Nabavka dobara i usluga u Republici od obveznika PDV - promet za koji je poreski dužnik primalac dobara, odnosno usluga</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111501944"><Data ss:Type="String">Osnovica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s115"><Data ss:Type="String">Opšta stopa</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501984"><Data ss:Type="String">Posebna stopa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8b.1</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Prenos prava raspolaganja na građevinskim</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.1"]["_8b.1.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501452"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.1"]["_8b.1.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8b.2</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Dobra i usluge, osim dobara iz tačke 8b.1</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.2"]["_8b.2.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501472"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.2"]["_8b.2.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8b.3</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Dobra i usluge bez naknade</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.3"]["_8b.3.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501492"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.3"]["_8b.3.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8b.4</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Izmena osnovice za nabavljena dobra i usluge - povećanje</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.4"]["_8b.4.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501512"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.4"]["_8b.4.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8b.5</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Izmena osnovice za nabavljena dobra i usluge - smanjenje</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.5"]["_8b.5.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501532"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.5"]["_8b.5.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">8b.6</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Ukupna osnovica za nabavljena dobra i usluge (8b.1+8b.2+8b.3+8b.4+8b.5)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.6"]["_8b.6.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501552"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.6"]["_8b.6.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">8b.7</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Naknada ili deo naknade koji je plaćen pre izvrešenog prometa (avans)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s197"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.7"]["_8b.7.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111501572"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8b.7"]["_8b.7.2"]}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.75">
+    <Cell ss:MergeAcross="1" ss:StyleID="s113"><Data ss:Type="String">8v Nabavka dobara i usluga u Republici od obveznika PDV, osim po osnovu prometa za koji postoji obaveza obračunavanja PDV iz tač. 8a i 8b</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111501332"><Data ss:Type="String">Naknada/vrednost</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8v.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Prenos celokupne, odnosno dela imovice u skladu sa članom 6. stav 1. tačka 1) Zakona, sa ili bez naknade ili kao ulog, uključujući i povezanje, odnosno smanjenje naknade za taj prenos</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111501352"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8v.1"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8v.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Dobra i usluge uz naknadu, osim iz tačke 8v.1, uključujući i povećanje, odnosno smanjenje te naknade</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111501372"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8v.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8v.3</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Dobra i usluge bez naknade, osim iz tačke 8v.1</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111501392"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8v.3"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8v.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Ukupna naknada, odnosno vrednost nabavljenih dobara i usluga (8v.1+8v.2+8v.3)</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111501412"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8v.4"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s119"><Data
+            ss:Type="String">8g Nabavke dobara i usluga u Republici od stranih lica koja nisu obveznici PDV - promet za koji postoji obaveza obračunavanja PDV</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393932"><Data ss:Type="String">Osnovica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s115"><Data ss:Type="String">Opšta stopa</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111393972"><Data ss:Type="String">Posebna stopa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8g.1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Dobra i usluge</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394032"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.1"]["_8g.1.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394152"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.1"]["_8g.1.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8g.2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Dobra i usluge bez naknade</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394052"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.2"]["_8g.2.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394172"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.2"]["_8g.2.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8g.3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Izmena osnovice - povećanje</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394072"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.3"]["_8g.3.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394192"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.3"]["_8g.3.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8g.4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Izmena osnovice - smanjenje</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394092"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.4"]["_8g.4.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394212"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.4"]["_8g.4.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">8g.5</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Ukupna osnovica za nabavljena dobra i usluge (8g.1+8g.2+8g.3+8g.4)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394112"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.5"]["_8g.5.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394232"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.5"]["_8g.5.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8g.6</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Naknada ili deo naknade plaćen pre izvršenog prometa (avans)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394132"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.6"]["_8g.6.1"]}</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m111394252"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8g.6"]["_8g.6.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s121"><Data ss:Type="String">8d Nabavka dobara i usluga, osim iz tač 8a do 8g</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111394012"><Data ss:Type="String">Naknada/vrednost</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8d.1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Dobra i usluge nabavljeni u Republici od stranih lica koja nisu obveznici PDV - promet za koji ne postoji obaveza obračunavanja PDV, kao i povećanje, odnosno smanjenje naknade za ta dobra i usluge, uključujući i nabavku bez naknade</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m34593792"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8d.1"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8d.2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Dobra i usluge, nabavljeni u Republici od lica sa teritorije Republike koja nisu obveznici PDV, kao i povećanje, odnosno smanjenje naknade za ta dobra i uslge, uključujući i nabavku bez naknade</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m34593812"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8d.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8d.3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Dobra i usluge nabavljeni van Republike, kao i povećanje, odnosno smanjenje naknade za ta dobra i usluge, uključujući i nabavku bez naknade</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m34593832"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8d.3"]}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s113"><Data ss:Type="String">8đ Ukupna osnovica, naknada, odnosno vrednost nabavljenih dobara i usluga (8a.6+8b.6+8v.4+8g.5+8d.1+8d.2+8d.3)</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393812"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8dj"]}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s113"><Data ss:Type="String">8e PDV ZA PROMET DOBARA I USLUGA KOJI SE MOŽE ODBITI KAO PRETHODNI POREZ I ISPRAVKE ODBITKA PRETHODNOG POREZA</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393852"><Data ss:Type="String">Iznos</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8e.1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Ukupno obračunati PDV za promet nabavljenih dobara i usluga za koji je poreski dužnik obveznik PDV - isporučilac dobara, odnosno pružalac usluga, a koji se može odbiti kao prethodni porez (8a.8 umanjen za iznos PDV koji se ne može odbiti kao prethodni porez)</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m34593852"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8e.1"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8e.2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Ukupno obračunati PDV za promet nabavljenih dobara i usluga za koji je poreski dužnik obveznik PDV - primalac dobara, odnoso usluga, a koji se može odbiti kao prethodni porez (3a.9 umanjen za iznos PDV koji se ne može odbiti kao prethodni porez)</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m34593872"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8e.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8e.3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Ispravka odbitka - povećanje prethodnog poreza, osim po osnovu izmene osnovice za promet dobara i usluga i po osnovu uvoza dobara</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m34593892"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8e.3"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">8e.4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Ispravka odbitka - smanjenje prethodnog poreza, osim po osnovu izmene osnovice za promet dobara i usluga</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m34593932"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8e.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">8e.5</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Ukupno obračunati PDV za promet dobara i usluga koji se može odbiti kao prethodni porez (8e.1+8e.2+8e.3+8e.4)</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m34593912"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8e.5"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="45.75">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">8e.6</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Ukupno obračunati PDV za promet dobara i usluga koji se može odbiti kao prethodni porez uvećan za iznos za koji se ne može umanjiti obračunati PDV (8e.5+(5.2+5.5 u apsolutnom iznosu))</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m34593952"><Data ss:Type="Number">${JSON.popdvObj._POPDV8["_8e.6"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="145" ss:Height="15.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s117"><Data ss:Type="String">9. UKUPNA VREDNOST NABAVLJENIH DOBARA I USLUGA, UKLJUČUJUĆI I UVOZ DOBARA STAVLJENIH U SLOBODAN PROMET (6.3+7.1+8đ)</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393892"><Data ss:Type="Number">${JSON.popdvObj._POPDV9}</Data></Cell>
+   </Row>
+   <Row ss:Index="148" ss:Height="15.75"/>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s109"><Data ss:Type="String">9a PDV KOJI SE U PORESKOJ PRIJAVI ISKAZUJE KAO PRETHODNI POREZ</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393440"><Data ss:Type="String">Iznos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">9a.1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">PDV plaćen pri uvozu dobara</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393460"><Data ss:Type="Number">${JSON.popdvObj._POPDV9a["_9a.1"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">9a.2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">PDV nadoknada plaćena poljoprivredniku</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393480"><Data ss:Type="Number">${JSON.popdvObj._POPDV9a["_9a.2"]}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">9a.3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">PDV po osnovu nabavki dobara i usluga, osim iz tač. 9a.1 i 9a.2</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393500"><Data ss:Type="Number">${JSON.popdvObj._POPDV9a["_9a.3"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">9a.4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Ukupan PDV koji se u poreskoj prijavi iskazuje kao prethodni porez (9a.1+9a.2+9a.3)</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393520"><Data ss:Type="Number">${JSON.popdvObj._POPDV9a["_9a.4"]}</Data></Cell>
+   </Row>
+   <Row ss:Index="155" ss:Height="15.75"/>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeAcross="1" ss:StyleID="m111393300"><Data ss:Type="String">10. PORESKA OBAVEZA (5.7-9A.4)</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393320"><Data ss:Type="Number">${JSON.popdvObj._POPDV10}</Data></Cell>
+   </Row>
+   <Row ss:Index="158" ss:Height="15.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s103"><Data ss:Type="String">11. PROMET DOBARA I USLUGA IZVRŠEN VAN REPUBLIKE I DRUGI PROMET KOJI NE PODLEŽE PDV</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393360"><Data ss:Type="String">Iznos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">11.1</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Promet dobara i usluga izvršen van Republike</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393380"><Data ss:Type="Number">${JSON.popdvObj._POPDV11["_11.1"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">11.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Prenos celokupne, odnosno dela imovine u skladu sa članom 6. stav 1. tačka 1) Zakona</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393400"><Data ss:Type="Number">${JSON.popdvObj._POPDV11["_11.2"]}</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">11.3</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">Promet dobara i usluga iz člana 6. Zakona, osim iz tačke 11.2</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m111393280"><Data ss:Type="Number">${JSON.popdvObj._POPDV11["_11.3"]}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table x:FullColumns="1"
+         x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table x:FullColumns="1"
+         x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

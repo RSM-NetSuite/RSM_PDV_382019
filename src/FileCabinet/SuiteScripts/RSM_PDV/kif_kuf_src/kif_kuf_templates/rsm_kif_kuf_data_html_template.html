@@ -1,0 +1,90 @@
+<html>
+
+<head>
+  <style type="text/css">
+    .container {
+      margin-top: 35px;
+    }
+
+    .table-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      color: #6f7373;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .thead {
+      color: #FFF;
+      background-color: #607799;
+    }
+
+    .thead tr th {
+      padding: 5px;
+    }
+
+    .tbody tr td {
+      padding: 4px;
+    }
+
+    .tr-odd {
+      background-color: #e0e6ef;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <p class="table-label">Lista generisanih izvestaja</p>
+    <table class="table" id="table">
+      <thead class="thead">
+        <th>Interni id</th>
+        <th>Tip izvestaja</th>
+        <th>POPDV datum od</th>
+        <th>POPDV datum do</th>
+        <th>Kreirano</th>
+        <th>Datoteka</th>
+        <th>Korisnik</th>
+        <th>Subsidiary</th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </thead>
+      <tbody class="tbody">
+        <#assign x = 1>
+        <#list JSON.data as rec>
+        <#if x % 2 == 0>
+          <tr class="tr-odd">
+        <#else>
+          <tr>
+        </#if>
+            <td>${rec.internalid}</td>
+            <td>${rec.type}</td>
+            <td>${rec.from}</td>
+            <td>${rec.to}</td>
+            <td>${rec.createdat}</td>
+            <td>${rec.file}</td>
+            <td>${rec.user}</td>
+            <td>${rec.subsidiary}</td>
+            <td><a href="${rec.reportsuiteleturl}" target="_blank">Prikazi izvestaj</a></td>
+            <td><a href="${rec.exportXlsSuiteletUrl}" target="_blank">Eksport u excel</a></td>
+            <td><a href="${rec.deleteRecordSuiteletUrl}">Obrisi rekord</a></td>
+          </tr>
+          <#assign x += 1>
+        </#list>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+  
+  </script>
+
+</body>
+
+</html>
