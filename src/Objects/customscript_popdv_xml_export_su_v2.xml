@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_popdv_xml_export_su_v2">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RSM : PoPDV export XML SU</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/RSM_PDV/popdv_src/popdv_export_xml_su.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_popdv_xml_export_su_v2">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>ERROR</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>RSM : PoPDV export XML SU</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

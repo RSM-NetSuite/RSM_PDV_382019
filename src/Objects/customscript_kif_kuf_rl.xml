@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_kif_kuf_rl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RSM KIF KUF restlet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/RSM_PDV/kif_kuf_src/rsm_kif_kuf_rl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_kif_kuf_rl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <status>RELEASED</status>
+      <title>RSM KIF-KUF restlet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

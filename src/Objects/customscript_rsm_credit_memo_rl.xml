@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_rsm_credit_memo_rl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RSM Credit Memo Restlet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/RSM_PDV/tacka7_src/rsm_credit_memo_rl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_rsm_credit_memo_rl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>RSM Credit Memo Restlet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

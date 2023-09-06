@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_kif_kuf_xls_export_su">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RSM KIF KUF Excel export suitelet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/RSM_PDV/kif_kuf_src/rsm_kif_kuf_xls_export_su.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_kif_kuf_xls_export_su">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>ERROR</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>RSM KIF KUF Excel export suitelet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

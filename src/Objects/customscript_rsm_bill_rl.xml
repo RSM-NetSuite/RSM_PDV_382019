@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_rsm_bill_rl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RSM : Bill RL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/RSM_PDV/tacka7_src/rsm_bill_rl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_rsm_bill_rl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>RSM : Bill RL</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

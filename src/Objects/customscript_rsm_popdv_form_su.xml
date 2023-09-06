@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_rsm_popdv_form_su">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RSM : PoPDV forma SU</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/RSM_PDV/popdv_src/popdv_form_su.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_rsm_popdv_form_su">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>RSM : PoPDV forma SU</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

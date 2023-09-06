@@ -1,0 +1,19 @@
+<centercategory scriptid="custcentercategory_112_4465984_sb1_518">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertabcustcentertab1265]</centertab>
+  <label>Poreski Izveštaji</label>
+  <links>
+    <link>
+      <linklabel>POPDV Forma</linklabel>
+      <linkobject>[scriptid=customscript_rsm_popdv_form_su.customdeploy_rsm_popdv_form_su]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel></linklabel>
+      <linkobject>[scriptid=custlink_4_8805032_sb1_642]</linkobject>
+      <linktasktype>LINK</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>
